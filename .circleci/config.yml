@@ -6,7 +6,7 @@ executors:
       - image: 'cimg/openjdk:21.0.5'
 
 orbs:
-  maven: circleci/maven@1.4.1
+  maven: circleci/maven@2.0.0
 #  tcc: atomicjar/testcontainers-cloud-orb@0.1.0
 
 workflows:
